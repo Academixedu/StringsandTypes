@@ -5,8 +5,8 @@ public static String reverse(String input) {
 }
 
 public static void main(String[] args) {
-    String original = "Hello World";
-    String reversed = reverse(original);
+    String main = "Hello World";
+    String reversed = reverse(main);
     System.out.println(reversed); 
 }
 }
