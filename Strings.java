@@ -5,7 +5,7 @@ public static String reverseString(String name){
     return na.reverse().toString();
 }
 public static void main(String[] args) {
-    String value = "fayaz";
+    String value = "Nayeem";
     String name = reverseString(value);
     System.out.println(name);
 }
