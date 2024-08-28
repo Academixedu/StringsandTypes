@@ -3,4 +3,14 @@ public class StringBuff{
   // Print Hello using SubString()
   // Add ,  between Hello and World uisng Insert()
   // Delete World using delete();
+public static void main(String[] args) {
+
+StringBuilder sb = new StringBuilder("Hello World");
+System.out.println(sb.substring(0,5));
+System.out.println(sb.insert(5,","));
+System.out.println(sb.delete(6,12));
+
+
+}
+
 }
